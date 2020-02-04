@@ -1,0 +1,19 @@
+html {
+	background: url(images/renders/Privizio_face_extended.jpg); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.header {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	height: 2%
+	weight: 2%;
+	float: left;
+
+}
