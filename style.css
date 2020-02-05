@@ -1,5 +1,5 @@
 html {
-	background: url(images/renders/Privizio_face_extended.jpg); 
+	background: url(images/renders/small/Privizio_face_extended_s.jpg); 
 	background-size: cover; 
 	background-repeat: no-repeat;
 }
@@ -20,16 +20,70 @@ html {
 
 }
 
-.nav {
-	display: flex;
-	padding-right: 10%;
+.logo_blue {visibility: hidden;
+
+} 
+
+
+.header_logo img:hover {
 
 }
 
+.nav {
+	display: flex;
+	padding-right: 10%;
+    position: relative;
+}
+
+.nav_link {
+	  display: inline-block;
+    color:#007cf7;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+.nav_link:hover {
+	color: #007cf7;
+	transition-duration: .3s;
+}
+
+.nav_link:after {
+  background-color: #007cf7;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .5s ease-in-out;
+    -moz--transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+
+
+}
+
+.nav_link:hover:after,
+.nav_link:hover:after{
+	width: 100%;
+}
+
+
 .nav>a {
-	padding-right: 5%;
+	margin-right: 8%;
 	text-decoration: none;
 	color:black;
 	font-size: 1.6vw;
 	font-family: 'Signika Negative', sans-serif;
+}
+
+.banner {
+	float: right;
+	font-size: 3.5vw;
+	font-family:'Libre Baskerville', serif;
+	padding:3% 10% 0;
 }
