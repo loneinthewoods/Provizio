@@ -11,7 +11,6 @@ html {
 
 .img {
 	position: absolute;
-	height: 10%;
 	width: 20%;
 	float: left;
 	padding-left: 3%;
@@ -105,6 +104,9 @@ html {
 .block1 {
 	display: flex;
 	justify-content: center;
+	margin-left: 13%;
+	margin-right: 8.5%;
+	margin-top: 5%;
 }
 
 .block1>p {
@@ -113,11 +115,12 @@ html {
 	line-height: 1.5;
 	margin-bottom: auto;
 	margin-top: auto;
+	width: 30%;
 }
 
 .block1>img {
-	max-width: 80%;
-	max-height: 80%;
+	max-width: 60%;
+	max-height: 60%;
 }
 
 .block_photo {
@@ -183,14 +186,11 @@ html {
 	max-height: 75%;
 }
 
-.empty {
-	height: 10%;
-	width: 100%;
-}
-
 .tables_bottom {
 	display: flex;
 	justify-content: center;
+	padding: 8% 0;
+	background-color: #ededef;
 }
 
 .table2 {
@@ -219,11 +219,16 @@ html {
 	margin-top: 8%;
 }
 
-.tech>img {
+.img_exploded>img {
 	max-width: 80%;
 	max-height: 80%;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+.img_exploded {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .tech>h2 {
@@ -233,22 +238,15 @@ html {
 }
 
 .block2 {
-	display: flex;
-	justify-content: center;
-	margin-top: 5%;
-}
-
-.block2>img {
-	max-width: 65%;
-	max-height: 65%;
+	position: absolute; 
+	text-align: right;
+	margin-left: 33%;
 }
 
 .list>ul>li {
 	font-family: 'Signika Negative', sans-serif;
 	font-size: 1.5vw;
 	opacity: 0.8;
-	padding-top: 1%;
-	padding-left: 30%
 }
 
 .list>ul {
