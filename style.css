@@ -190,7 +190,7 @@ html {
 	display: flex;
 	justify-content: center;
 	padding: 8% 0;
-	background: linear-gradient(to right, #898989, #ededef);
+	background: #ededef;
 }
 
 .table2 {
@@ -268,6 +268,7 @@ html {
 	justify-content: space-between;
 	background: linear-gradient(to right, #ededef, #898989);
 	padding: 8% 0;
+	margin-top: 5%;
 }
 
 .right_text {
