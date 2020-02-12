@@ -330,21 +330,34 @@ html {
 .member {
 	display: flex;
 	flex-direction: column;
-	width: 28%;
+	width: 25%;
+	padding: 5% 0;
 	align-items: center;
-	background-color: #007cf7;
-	margin-right: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
 	margin-bottom: 3%;
-	border-radius: 50%;
+	border-radius: 1%;
+	background: linear-gradient(to top,#ededef,#007cf7);
 }
 	
-
 .member>img {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 50%;
+	max-height: 50%;
+	border-radius: 50%;
 }
 
-.member>h3 {
+.linked>h3 {
 	font-family: 'Signika Negative', sans-serif;
 	font-size: 1.5vw;
+	color: white;
+	padding-right: 2%;
 }
+
+.linked {
+	margin-top: 3%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
